@@ -14,7 +14,7 @@
 # donet Blogs
 <ul>
   {% for post in site.posts %}
-  {% if post.title contains 'Java' %}
+  {% if post.tags contains 'dotnet' %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a>
     </li>
